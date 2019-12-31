@@ -1,0 +1,94 @@
+<!--pages/carts/carts.wxml-->
+<view class="all">
+  <!--  -->
+  <view class="header boxs">
+    <text>商品</text>
+    <text>编辑</text>
+  </view>
+  <!--  -->
+  <view class="content">
+    <!-- 商品 -->
+    <view class="box goods">
+      <text>怡宝纯净水</text>
+      <view class="boxs">
+        <view>￥2.9</view>
+        <view class="num boxs">
+          <image src="/image/jian.png"></image>
+          <view>3</view>
+          <image src="/image/jia.png"></image>
+        </view>
+      </view>
+    </view>
+    <!-- 购物袋 -->
+    <view class="bag box">
+      <text>购物袋</text>
+      <view class="boxs">
+        <view class="left boxs">
+          <image src="/image/bag.png" class="bag_image"></image>
+          <view class="b_right">
+       
+              <view class="size">中号￥0.2</view>
+              <view class="num boxs">
+                <image src="/image/jian.png"></image>
+                <view>0</view>
+                <image src="/image/jia.png"></image>
+              </view>
+            
+          </view>
+        </view>
+        <view class="right boxs">
+          <image src="/image/bag.png" class="bag_image"></image>
+          <view class="b_right">
+            <view>大号￥0.3</view>
+            <view class="num boxs">
+              <image src="/image/jian.png"></image>
+              <view>0</view>
+              <image src="/image/jia.png"></image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 发票 -->
+    <view class="document box boxs">
+      <text>发票</text>
+      <view class="boxs">
+        <view>不要发票</view>
+        <image src="/image/jiantou.png"></image>
+      </view>
+    </view>
+    <!-- 优惠卷 -->
+    <view class="coupon box boxs">
+      <text>优惠卷</text>
+      <view class="boxs">
+        <view>未使用优惠卷</view>
+        <image src="/image/jiantou.png"></image>
+      </view>
+    </view>
+    <!-- 金额 -->
+    <view class="amount box">
+      <view class="boxs">
+        <text>商品金额：</text>
+        <view>￥2.9</view>
+      </view>
+      <view class="boxs">
+        <text>优惠合计：</text>
+        <view class="c_blue">￥2.9</view>
+      </view>
+    </view>
+  </view>
+  <!--  -->
+  <view class="footer">
+    <view class="f_top">扫不出来？试试
+      <text class="c_blue">输入条形码</text>
+    </view>
+    <view class="f_bot">
+
+      <image src="/image/scan.png"></image>
+      <view class="total">
+        <view>合计：2.20</view>
+        <view class="settle">结算（1）</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,122 @@
+/* pages/carts/carts.wxss */
+
+.container {
+  position: relative;
+}
+
+.all {
+  background-color: #f8f8f8;
+  height: 100vh;
+}
+
+.header {
+  padding: 13rpx 40rpx;
+}
+
+/* content */
+
+.box {
+  background-color: #fff;
+  margin: 17rpx 0;
+  padding: 40rpx;
+}
+
+.boxs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c_blue {
+  color: #0773cd;
+}
+
+/* 商品 */
+
+.num image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+/* 购物袋 */
+
+.bag_image {
+  width: 150rpx;
+  height: 180rpx;
+}
+
+
+
+/* 发票 */
+
+.document {
+}
+
+.document image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+/*优惠卷  */
+
+.coupon {
+}
+
+.coupon image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+/* 金额 */
+
+.amount {
+  padding-bottom: 400rpx;
+}
+
+/* footer */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.f_top {
+  position: absolute;
+  bottom: 0;
+  left: 33%;
+  font-size: 23rpx;
+  border: 1.5rpx solid #ccc;
+  padding: 15rpx;
+  border-radius: 25rpx;
+}
+
+.f_bot {
+  position: relative;
+}
+
+.footer image {
+  width: 180rpx;
+  height: 180rpx;
+  position: absolute;
+  bottom: 30%;
+  left: 6%;
+}
+
+.total {
+  /* height:100%; */
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1.5rpx solid #ccc;
+}
+
+.total view {
+  padding: 40rpx;
+}
+
+.settle {
+  background-color: #ff8000;
+  color: #fff;
+}

@@ -1,0 +1,103 @@
+/* pages/order_list/order_list.wxss */
+
+.all {
+  background-color: #eaeaea;
+  height: 100vh;
+}
+
+/* nav */
+.boxitem {
+  height: 40px;
+}
+.change{
+  display: flex;
+  justify-content: flex-start
+}
+.name {
+  color: #ababab;
+margin: 0 20rpx;
+  font-size: 35rpx;
+}
+
+.active {
+  border-bottom: 1px solid #2e6588;
+
+  color: #2e6588;
+}
+
+/* top */
+
+.box {
+  padding: 120rpx 30rpx 30rpx 30rpx;
+  background-color: #fff;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+
+.time {
+  font-size: 35rpx;
+  margin: 10rpx 0;
+}
+
+.shop {
+  font-size: 29rpx;
+  color: #c0c0c0;
+  margin: 10rpx 0;
+}
+
+.done {
+  color: #537b9c;
+  margin-top: 30rpx;
+}
+
+/* bot */
+
+.bot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.num {
+  display: flex;
+  align-items: center;
+}
+.num view{
+    font-size: 29rpx;
+  color:#c0c0c0;
+}
+.num text{
+  color: black
+}
+.num image {
+  width: 37rpx;
+  height: 37rpx;
+}
+
+.amount {
+  display: flex;
+}
+
+.a_num {
+  color: #ffc000;
+}
+
+/* more */
+
+.more {
+  display: flex;
+  justify-content: center;
+  margin-top: 30rpx;
+}
+
+.more text {
+  color: #537b9c;
+}
+
+.more image {
+  width: 50rpx;
+  height: 50rpx;
+}

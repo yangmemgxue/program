@@ -1,0 +1,240 @@
+/* pages/coupons/coupons.wxss */
+
+.all {
+  background-color: #eaeaea;
+  height: 100vh;
+}
+
+/* nav */
+
+.boxitem {
+  height: 60px;
+}
+
+.change {
+  display: flex;
+  /* justify-content: flex-start; */
+  width: 100%;
+}
+
+.name {
+  width: 100%;
+  color: #ababab;
+  font-size: 37rpx;
+  text-align: center;
+  padding: 30rpx;
+}
+
+.active {
+  border-bottom: 1px solid #0773cd;
+  margin: 0 80rpx;
+  color: #0773cd;
+}
+
+/*  */
+
+.mid {
+  /* width: 100%; */
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+
+.mids_c {
+  width: 90%;
+  display: flex;
+  background: #fff;
+  border-radius: 8px;
+  border-right: 1px dashed #f5f5f5;
+  /* 相对定位，方便让before和after伪元素绝对定位偏移 */
+  position: relative;
+}
+
+.mids_c:before, .mids_c:after {
+  content: ' ';
+  width: 0;
+  height: 100%;
+  /* 绝对定位进行偏移 */
+  position: absolute;
+  top: 0;
+}
+
+.mids:before {
+  /* 圆点型的border *//* border-right: 10px dotted #eaeaea; *//* 偏移一个半径，让圆点的一半覆盖p *//* left: -5px; */
+}
+
+.mids_c:after {
+  border-left: 8px dotted #eaeaea;
+  right: -4px;
+}
+
+.left {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+  box-shadow: -2px 2px 2px #ccc;
+  /* background: #fff; */
+  display: flex;
+}
+
+.left image {
+  height: 180rpx;
+  width: 170rpx;
+}
+.l_text{
+  padding-left: 20rpx;
+}
+.title {
+  font-size: 27rpx;
+}
+
+.time {
+  /* margin-top: 30rpx; */
+  font-size: 23rpx;
+  color: #9e9e9e;
+}
+
+.discount {
+  /* display: flex; */
+  color: #ff5d02;
+}
+
+.d_num {
+  font-size: 50rpx; 
+
+}
+
+.d_text {
+  font-size:24rpx;
+}
+
+.split-line {
+  position: relative;
+  flex: 0 0 0;
+  border-left: 2px dashed #eee;
+  margin: 0 5px 0 3px;
+  background: #fff;
+}
+
+.split-line:before, .split-line:after {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 8px;
+  background: #eee;
+  left: -9px;
+  z-index: 1;
+}
+
+.split-line:before {
+  border-radius: 0 0 8px 8px;
+  top: 0;
+}
+
+.split-line:after {
+  border-radius: 8px 8px 0 0;
+  bottom: 0;
+}
+
+.get {
+  border-radius: 0 8px 8px 0;
+  box-shadow: 2px 2px 2px #ccc;
+  display: flex;
+  flex: 0.4;
+  justify-content: center;
+  align-items: center;
+}
+
+.get view {
+  height: 40rpx;
+  width: 100rpx;
+  padding: 10rpx 20rpx;
+  background-color: #ff5d02;
+  color: #fff;
+  border-radius: 40rpx;
+  font-size: 24rpx;
+}
+
+/* 微信卷 */
+
+.mids_wei {
+  justify-content: center;
+  width: 90%;
+  display: flex;
+  background: #fff;
+  border-radius: 8px;
+  border-right: 1px dashed #f5f5f5;
+  /* 相对定位，方便让before和after伪元素绝对定位偏移 */
+  position: relative;
+}
+
+.mids_wei:before, .mids_wei:after {
+  content: ' ';
+  width: 0;
+  height: 1px;
+  /* 绝对定位进行偏移 */
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.mids_wei:after {
+  border-bottom: 8px dotted #eaeaea;
+  top: 4px;
+}
+
+/* 尾部 */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 120rpx;
+  background: #fff;
+  z-index: 99;
+  border-top: 1rpx solid #c3c3c3;
+  display: flex;
+}
+
+.footer .f_cheap,.footer .f_coupon {
+  flex: 1;
+  text-align: center;
+  height: 100%;
+}
+.footer .line{
+border-right: 1rpx solid #ccc;
+height: 58rpx;
+margin: 40rpx
+}
+.f_cheap {
+  display: flex;
+  /* border-right: 1rpx solid #ccc; */
+  align-items: center;
+  justify-content: center;
+  color: #5e9b46;
+}
+
+.f_coupon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0773cd;
+}
+
+.cheaper {
+  background-color: #ff5d02;
+  border-radius: 20rpx 20rpx 20rpx 0;
+  position: fixed;
+  bottom: 6.5%;
+  left: 29%;
+  width: 95rpx;
+  height: 38rpx;
+  font-size: 25rpx;
+  z-index: 99;
+  color: #fff;
+}
+
+.cheaper text {
+  text-align: center;
+  padding-left: 10rpx;
+}

@@ -1,0 +1,205 @@
+/**index.wxss**/
+
+.all {
+  position: relative;
+}
+
+.blue {
+  background-color: #0773cd;
+  height: 400rpx;
+}
+
+.line {
+  background-color: #0773cd;
+  background-image: radial-gradient(55% 90rpx at top, rgba(255, 255, 255, 0) 92%, #0773cd 98%, white);
+  /* background-image:radial-gradient(55% 120rpx at top ,rgb(255,255,255) 90%,#0773CD 90%,white); */
+  width: 100%;
+  height: 200rpx;
+}
+
+.inn {
+  position: absolute;
+  top: 110rpx;
+  left: 30%;
+  background-color: #fff;
+  border-radius: 40rpx;
+  padding: 5rpx;
+  display: flex;
+  align-items: center;
+}
+
+.inn image {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 30rpx;
+  margin: 8rpx;
+}
+
+.inn text {
+  color: #5986ac;
+}
+
+/* 主体 */
+
+.container {
+  height: 1000rpx;
+}
+
+/* 扫码 */
+
+.scan_code {
+  width: 90%;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1rpx solid #cccc;
+  box-shadow: 2px 2px 3px #ccc;
+  padding: 20rpx;
+}
+
+.top {
+  display: flex;
+}
+
+.top view {
+  display: flex;
+  flex-direction: column;
+}
+
+.top view text {
+  padding: 10rpx 0;
+}
+
+.text_one {
+  font-size: 50rpx;
+  font-weight: bolder;
+}
+
+.text_two {
+  font-size: 30rpx;
+}
+
+.text_three {
+  color: #eeb685;
+  font-size: 30rpx;
+}
+
+.top image {
+  width: 260rpx;
+  height: 260rpx;
+  margin-left: 20rpx;
+}
+
+/*  */
+
+.mid {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 4rpx solid rgba(204, 204, 204, 0.4);
+}
+
+.mid view image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.mids {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+/*  */
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bots {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.bots image {
+  width: 70rpx;
+  height: 70rpx;
+}
+.b_line{
+  border: 2rpx solid #F2F2F2;
+  height: 90rpx;
+ margin-top: 40rpx;
+}
+/*  */
+.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.icon image {
+  width: 30rpx;
+  height: 30rpx;
+}
+
+/*  */
+
+.coupon {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.coupons {
+  width: 800rpx;
+  /* height: 200rpx; */
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  border: 1rpx solid #cccc;
+  box-shadow: 2px 2px 3px #ccc;
+  padding: 20rpx ;
+  margin: 10rpx;
+}
+
+.coupons view {
+  display: flex;
+  flex-direction: column;
+}
+.coupons_top{
+font-weight: bolder;
+margin-bottom: 10rpx;
+}
+.coupons_bottom{
+font-size: 25rpx;
+color: #D0D0D0;
+}
+.coupon image {
+  width: 110rpx;
+  height: 110rpx;
+}
+
+/*  */
+
+.footer {
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+}
+
+.footer image {
+  width: 35rpx;
+  height: 35rpx;
+}

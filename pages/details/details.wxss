@@ -1,0 +1,94 @@
+/* pages/details/details.wxss */
+
+.all {
+  background-color: #eaeaea;
+  height: 100vh;
+}
+
+.box {
+  background-color: #fff;
+  margin: 17rpx 0;
+  padding: 30rpx 40rpx;
+}
+
+.boxs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c_blue {
+  color: #0773cd;
+}
+
+.c_orange {
+  color: #ff8000;
+}
+
+/* 上 */
+
+.o_top view {
+  margin-bottom: 30rpx;
+  /* font-size: 20rpx; */
+}
+
+.o_top text {
+  color: #0773cd;
+}
+
+.o_bottom view {
+  display: flex;
+  margin: 25rpx 0;
+}
+
+.o_bottom view  text {
+  font-size: 28rpx;
+  color: #ccc;
+}
+
+/* 中 */
+
+.commodity {
+  border-bottom: 1rpx solid #eaeaea;
+}
+
+.commodity view {
+  margin: 20rpx 0;
+}
+
+/*  下*/
+
+.total {
+  background: #fff;
+}
+
+.t_top {
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx 30rpx;
+}
+
+.t_top image {
+  height: 40rpx;
+  width: 40rpx;
+}
+
+.t_top_right {
+  display: flex;
+}
+
+.t_bottom {
+  padding: 70rpx 40rpx;
+  height: 200rpx;
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.but {
+  padding: 10rpx 0;
+}
+
+.total button {
+  color: #fff;
+  background-color: #ff8000;
+  width: 450rpx;
+}

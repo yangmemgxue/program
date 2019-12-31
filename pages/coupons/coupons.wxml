@@ -1,0 +1,83 @@
+<!--pages/coupons/coupons.wxml-->
+<view class="all">
+  <!-- 头部 -->
+  <view class="header">
+    <view style="position:fixed;width:100%;background:#fff;z-index:99;  border-bottom:1px solid #C3C3C3;">
+      <view class="boxitem" style="display:flex;">
+        <view class="change " wx:for="{{nav}}" wx:key="index" data-index="{{index}}" bindtap="change">
+          <view class="name {{index==currentIndex?'active':''}}">
+            {{item}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!--内容  -->
+  <view wx:if="{{currentIndex==0}}">
+    <view class="mid">
+      <view class="mids_c">
+        <view class="left">
+          <image src="/image/youhuijuan.png"></image>
+          <view class="l_text">
+            <view class="title">
+              美赞成博瑞2-3段
+            </view>
+            <view class="time">
+              2019/12/27-01/05
+            </view>
+            <view class="discount">
+              <view class='d_num'>9.2折</view>
+              <view>满4件既享</view>
+            </view>
+          </view>
+        </view>
+        <view class="split-line"></view>
+        <view class="get">
+          <view>立即领取</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view wx:if="{{currentIndex==1}}">
+     <view class="mid">
+      <view class="mids_wei">
+        <view class="left">
+          <image src="/image/youhuijuan.png"></image>
+          <view class="l_text">
+            <view class="title">
+              美赞成博瑞2-3段
+            </view>
+            <view class="time">
+              2019/12/27-01/05
+            </view>
+            <view class="discount">
+              <view class='d_num'>9.2折</view>
+              <view>满4件既享</view>
+            </view>
+          </view>
+        </view>
+        <view class="split-line"></view>
+        <view class="get">
+          <view>立即领取</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+  <!--尾部  -->
+  <view class="footer">
+    <view class="f_cheap">
+      <text>今日优惠</text>
+    </view>
+    <view class="line"></view>
+    <view class="f_coupon">
+      <text>我的优惠卷</text>
+    </view>
+    <!-- <view class="cheaper">更低价</view> -->
+
+  </view>
+  <view class="cheaper">
+    <text>更低价</text>
+  </view>
+
+</view>

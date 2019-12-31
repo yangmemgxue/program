@@ -1,0 +1,92 @@
+<!-- index.wxml-->
+<view class="all">
+<!-- 头部 -->
+<view class="header">
+  <view class="blue"></view>
+  <view class="line"></view>
+  <view class="inn">
+    <image src="/image/timg.jpg"></image>
+    <text>沃尔玛光谷店</text>
+    <image src="/image/jiantou.png"></image>
+  </view>
+</view>
+<!-- 主体 -->
+
+<view class="container ">
+  <!--  -->
+  <view class="scan_code">
+    <view class="top">
+      <view >
+        <text class="text_one">扫商品</text>
+        <text class="text_two">扫描商品条码，快速核验出场</text>
+        <text class="text_three">长按扫描按钮可连续扫码哦</text>
+      </view>
+      <image src="/image/scan.png"></image>
+    </view>
+    <view class="mid">
+      <view class="mids">
+        <image src="/image/gouwulan.png"></image>
+        <text>扫码购物篮</text>
+      </view>
+      <view class="mids">
+        <image src="/image/chuchangma.png"></image>
+        <text>出场码</text>
+      </view>
+      <view class="mids">
+        <image src="/image/dingdan.png"></image>
+        <text>订单</text>
+      </view>
+    </view>
+    <view class="bottom">
+      <view class="bots">
+        <image src="/image/coupon.png"></image>
+        <text>我的优惠券</text>
+      </view>
+      <view class="b_line"></view>
+      <view class="bots">
+        <image src="/image/card.png"></image>
+        <text>礼品卡礼单</text>
+      </view>
+
+    </view>
+    <view class="icon">
+      <text>收起</text>
+      <image src="/image/up.png"></image>
+    </view>
+  </view>
+  <!--  -->
+  <view class="coupon">
+    <view class="coupons">
+      <view>
+        <text class="coupons_top">领劵中心</text>
+        <text class="coupons_bottom">神卷天天领</text>
+      </view>
+      <image src="/image/juan.png"></image>
+    </view>
+    <view class="coupons">
+      <view>
+        <text class="coupons_top">购买礼物卡</text>
+        <text class="coupons_bottom">抢到就是赚到</text>
+      </view>
+      <image src="/image/ka.png"></image>
+    </view>
+
+  </view>
+  <!--  -->
+  
+<!--  -->
+
+<!-- footer -->
+<view class="footer">
+    <view>
+      <image src="/image/teach.png"></image>
+      <text>教我使用</text>
+    </view>
+    <text>|</text>
+    <view>
+      <image src="/image/undo.png"></image>
+      <text>解绑手机号</text>
+    </view>
+  </view>
+</view>
+</view>
